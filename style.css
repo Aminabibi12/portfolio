@@ -1,0 +1,85 @@
+header{
+    text-align: center;
+    background-color: rgb(115, 169, 151);
+    border-radius: 15px;
+    border: solid black;
+     }
+     h1{
+       color: rgb(97, 55, 137);
+     }
+  header div{
+     text-align:center;
+     color:antiquewhite;
+  }   
+  img {
+     width: 250px;
+     border-radius: 15px;
+     margin-bottom: 65px;
+  }
+  .About-me{
+ 
+     text-align: center;
+     background-color: antiquewhite;
+     border: solid black;
+     border-radius: 15px;
+     color:brown;
+     word-spacing: 3px;
+    
+   }
+   .About-me > div{
+    display:flex;
+    color:brown;
+   }
+   .About-me div p{
+    margin-left: 50px;
+    margin-left: 50px;
+    
+   }
+   .skills{
+    text-align: center;
+    margin-right:220px;
+   }
+ 
+   .skills li{
+    text-align: justify;
+    margin-left: 60px;
+   }
+   
+   .work {
+    text-align: center;
+    background-color: rgb(115, 169, 151);
+    border-radius: 15px;
+    border: solid black;
+    color:antiquewhite;
+   }
+   .project{
+    display: flex;
+    gap: 3px;
+    margin-top: 60px;
+    margin-left: 100px;
+ 
+   }
+    .project img{
+       height: 400px;
+       width:  400px;
+       border: solid maroon;
+       margin-left: 20px;
+ 
+    }
+    /*.bike-project{
+       text-align:right;
+       margin-right: 20px;
+ 
+    }
+    .bike-project img{
+       position:right;
+       height: 400px;
+       width:  400px; 
+       border: solid maroon;  
+    }*/
+     footer {
+       background-color: black;
+       color: beige;
+       border:solid black;
+       border-radius: 15px;
+   }
