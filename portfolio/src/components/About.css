@@ -1,0 +1,49 @@
+.about-grid1 {
+    max-width: 300px;
+    height: 300px; 
+   
+}
+
+.about-grid2 {
+    max-width: 550px;
+    height: 300px; 
+  
+}
+
+.about-grid2 h2 {
+  text-align: center;
+  
+}
+.about-row {
+    margin-top: 100px;
+    gap:200px;
+    
+}
+
+.about-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.about-container p {
+    
+    font-size: 1.2rem;
+    padding: 3px;
+}
+
+.about-container h1 {
+   text-align: center;
+   margin-top: 150px;
+ 
+}
+
+
+.about-img-box {
+    max-width: 300px;
+    height: 300px; /* Remove quotes */
+}
+
+.about-img-box img {
+    max-width: 300px;
+    height: 300px; 
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 20); 
+}

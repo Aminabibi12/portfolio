@@ -1,0 +1,26 @@
+.skills-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+  
+}
+
+.skills-container h1 {
+   text-align: center;
+}
+
+.skills-row{
+    margin-top: 100px;
+    padding-left: 150px;
+}
+
+.skill-image {
+    max-width:220px;
+    height:220px;
+    
+}
+
+.skill-image img {
+    max-width: 220px;
+    height: 220px;
+}
+
