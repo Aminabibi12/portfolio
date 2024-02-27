@@ -24,6 +24,7 @@
 .projects-image {
    max-width: 450px;
    height: 300px;
+   position: relative;
 }
 
 .projects-image img {
@@ -33,3 +34,47 @@
   
 }
  
+.projects-image .front,
+.projects-image .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; 
+  transition: transform 0.8s; 
+}
+
+.projects-image .front {
+  transform: rotateY(0deg); 
+}
+
+.projects-image .back {
+  transform: rotateY(180deg);
+}
+
+.projects-image.flip .front {
+  transform: rotateY(-180deg); 
+}
+
+.projects-image.flip .back {
+  transform: rotateY(0deg); 
+}
+
+.projects-image .back  {
+    background-color:white;
+    box-shadow: 4px 4px 8px rgb(49, 47, 47); 
+}
+
+.projects-image .back h3 {
+    background-color:white;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.projects-image .back p {
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+}
