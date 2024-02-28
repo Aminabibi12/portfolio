@@ -24,13 +24,15 @@
 .projects-image {
    max-width: 450px;
    height: 300px;
+   border-radius: .5rem;
    position: relative;
 }
 
 .projects-image img {
     max-width: 450px;
     height: 300px;
-    box-shadow: 4px 4px 8px rgb(49, 47, 47); 
+    box-shadow: 2px 2px 4px rgb(49, 47, 47); 
+    border-radius: .5rem;
   
 }
  
@@ -41,6 +43,7 @@
   height: 100%;
   backface-visibility: hidden; 
   transition: transform 0.8s; 
+   
 }
 
 .projects-image .front {
@@ -61,7 +64,8 @@
 
 .projects-image .back  {
     background-color:white;
-    box-shadow: 4px 4px 8px rgb(49, 47, 47); 
+    box-shadow: 2px 2px 4px rgb(49, 47, 47); 
+    border-radius: .5rem;
 }
 
 .projects-image .back h3 {

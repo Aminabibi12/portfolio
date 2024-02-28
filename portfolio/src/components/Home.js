@@ -9,7 +9,7 @@ const Home = () => {
         <Col lg={6} className="home-grid1">
           <div className="text-content home-text">
             <h1>Hi, There &#x1F44B; </h1>
-            <p>My name is Amina. I'm a passionate <b>Full-Stack developer</b> with a creative flair and a strong commitment to delivering exceptional digital experiences. I have professional skills ( Frontend and Backend ) as well as have impressive soft skills.  </p>
+            <p>My name is <b>Amina</b>. I'm a passionate <b>Full-Stack developer</b> with a creative flair and a strong commitment to delivering exceptional digital experiences. I have professional skills ( Frontend and Backend ) as well as have impressive soft skills.  </p>
           </div>
         </Col>
         <Col lg={4} className="home-grid2">
