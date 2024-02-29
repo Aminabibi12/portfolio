@@ -6,7 +6,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
+       <p className='footer-p1'><b>If you want to work with me!</b></p>
+        <h2>Contact Me</h2>
       <Container className='footer-container'>
         <Row className='footer-row1'>
           <Col xs={12} sm={6} md={4} className='col1'>
@@ -16,7 +18,7 @@ const Footer = () => {
           </Col>
 
           <Col xs={12} sm={6} md={4} className='col2'  style={{ }}>
-            <h5>Follow Me!</h5>
+            <h5 style={{paddingBottom:"5px"}}>Follow Me!</h5>
             <div className="social-icons">
   <a href="https:www.linkedin.com/in/amina-bibi-a6bb03250/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -40,12 +42,7 @@ const Footer = () => {
         </Row>
 
       </Container>
-
-      <div className="footer-bottom">
-        <Container className='footer-bottom-box'>
-          <p className="text-center">© 2024. All rights reserved.</p>
-        </Container>
-      </div>
+    
     </footer>
   );
 };
