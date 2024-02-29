@@ -1,97 +1,106 @@
-.skills-container {
+.skills-row {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 100%;
+    margin-left: 110px;
+}
+
+  
+  .skills-container {
     margin-top: 200px;
     margin-bottom: 100px;
+  }
   
-}
-
-.skills-container h1 {
-   text-align: center;
-}
-
-.skills-row{
-    margin-top: 50px;
-    padding-left: 150px;
-}
-
-.skill-image {
-    max-width:220px;
-    height:220px;
-    position: relative; 
-    
-}
-
-.skill-image img {
+  .skills-container h1 {
+    text-align: center;
+  }
+  
+  .skill-image {
     max-width: 220px;
     height: 220px;
-}
-
-.skill-image-trello {
-    max-width: 280px;
-    height: 280px;
     position: relative; 
-}
-.skill-image-trello img {
-    max-width: 280px;
-    height: 280px;
-}
-
-.skill-image-github {
-    max-width: 290px;
-    height: 290px;
-    position: relative; 
-}
-.skill-image-github img {
-    max-width: 290px;
-    height: 290px;
-}
-.skills-row3 {
-    margin-top: 50px;
-    padding-left: 120px;
-   
-}
-
-.skill-image-scrum {
-    max-width: 240px;
-    height: 240px;
-    position: relative; 
+  }
   
-}
-
-.skill-image-scrum img {
+  .skill-image img {
+    max-width: 220px;
+    height: 220px;
+  }
+  
+  .skill-image-trello {
+    max-width: 280px;
+    height: 280px;
+    position: relative; 
+  }
+  
+  .skill-image-trello img {
+    max-width: 280px;
+    height: 280px;
+  }
+  
+  .skill-image-github {
+    max-width: 290px;
+    height: 290px;
+    position: relative; 
+  }
+  
+  .skill-image-github img {
+    max-width: 290px;
+    height: 290px;
+  }
+  
+  .skills-row3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-left: 80px;
+  }
+  
+  .skill-image-scrum {
     max-width: 240px;
     height: 240px;
-}
-
-.overlay {
+    position: relative; 
+  }
+  
+  .skill-image-scrum img {
+    max-width: 240px;
+    height: 240px;
+  }
+  
+  .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0;
-    background-color:#fff0e5;
+    background-color: #fff0e5;
     transition: opacity 0.5s ease; 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.skill-image:hover .overlay {
+  }
+  
+  .skill-image:hover .overlay {
     opacity: 0.8; 
-}
-
-.text {
-    
+  }
+  
+  .text {
     font-size: 20px;
     text-align: center;
-}
-
-.skill-image-scrum:hover .overlay {
+  }
+  
+  .skill-image-scrum:hover .overlay {
     opacity: 0.8; 
-}
-.skill-image-github:hover .overlay {
+  }
+  
+  .skill-image-github:hover .overlay {
     opacity: 0.8; 
-}
-.skill-image-trello:hover .overlay {
+  }
+  
+  .skill-image-trello:hover .overlay {
     opacity: 0.8; 
-}
+  }
+  
