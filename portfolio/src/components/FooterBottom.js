@@ -6,7 +6,7 @@ function FooterBottom() {
   return (
     <div className="footer-bottom">
       <Container className='footer-bottom-box'>
-        <p className="text-center">© 2024. All rights reserved.</p>
+        <p className="text-center">© 2024. All rights reserved. Made by <b>Amina Bibi</b>.</p>
       </Container>
     </div>
   );

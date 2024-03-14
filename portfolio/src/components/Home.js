@@ -1,4 +1,4 @@
-import profileImage from './images/profile.jpg';
+import profileImage from './images/pic.jpeg';
 import './Home.css';
 import { Container, Row, Col } from 'react-bootstrap';
 

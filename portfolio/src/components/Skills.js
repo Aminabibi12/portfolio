@@ -9,6 +9,9 @@ import sqlImage from './images/sql.webp';
 import githubImage from './images/github.png';
 import scrumImage from './images/scrum2.png';
 import trelloImage from './images/trello.webp';
+import JavaImage from './images/java.webp';
+import PhpImage from './images/php.webp';
+import PythonImage from './images/python.webp';
 import './Skills.css';
 
 const Skills = () => {
@@ -67,6 +70,41 @@ const Skills = () => {
           </div>
         </Col>
       </Row>
+
+
+
+
+      <Row className="skills-row">
+        <Col xs={12} md={4} className="text-center">
+          <div className="skill-image">
+            <img src={JavaImage} alt="React" className="img-fluid" />
+            <div className="overlay">
+              <div className="text"><b>Possessing a solid foundation in Java programming fundamentals</b></div>
+            </div>
+          </div>
+        </Col>
+        <Col xs={12} md={4} className="text-center">
+          <div className="skill-image">
+            <img src={PhpImage} alt="Node.js" className="img-fluid" />
+            <div className="overlay">
+              <div className="text"><b>PEquipped with fundamental knowledge of PHP programming for development</b></div>
+            </div>
+          </div>
+        </Col>
+        <Col xs={12} md={4} className="text-center">
+          <div className="skill-image">
+            <img src={PythonImage } alt="SQL" className="img-fluid" />
+            <div className="overlay">
+              <div className="text"><b>Having a foundational grasp of Python programming in task scripting</b></div>
+            </div>
+          </div>
+        </Col>
+      </Row>
+
+
+
+
+
       <Row className="skills-row3">
         <Col xs={12} md={4} className="text-center">
           <div className="skill-image-github">
