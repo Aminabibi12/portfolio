@@ -7,6 +7,8 @@ import codeUPImage from './images/code-up.png';
 import resumeImage from './images/resumeRise.png';
 import editorImage from './images/text-editor.png';
 import rickImage from './images/rickNmorty.png';
+import TaskImage from './images/task.jpeg';
+import TranslateImage from './images/translate.jpeg';
 
 const Projects = () => {
   return (
@@ -90,6 +92,34 @@ const Projects = () => {
             <div className="back">
             <h3>Rick and Morty</h3>
               <p>An immersive and dynamic page dedicated to the captivating world of Rick and Morty, brought to life with JavaScript DOM manipulation and the Fetch API.</p> 
+            </div>
+          </div>
+        </Col>
+
+      </Row>
+
+      <Row className="projects-row">
+
+        <Col xs={12} md={6} className="projects">
+          <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
+            <div className="front">
+              <img src={TaskImage} alt="" />
+            </div>
+            <div className="back">
+            <h3>Task-Scheduler App</h3>
+              <p>A React.js task scheduler app, streamlining your daily agenda with intuitive features and seamless task management.</p> 
+            </div>
+          </div>
+        </Col>
+
+        <Col xs={12} md={6} className="projects">
+          <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
+            <div className="front">
+              <img src={TranslateImage} alt="" />
+            </div>
+            <div className="back">
+            <h3>Translator App</h3>
+              <p>A React.js translator app, leveraging the Fetch API to seamlessly access translation services and facilitate cross-cultural communication.</p> 
             </div>
           </div>
         </Col>
