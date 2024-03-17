@@ -28,7 +28,7 @@ const Projects = () => {
             </div>
             <div className="back">
                 <h3>Soul Plates Project</h3>
-              <p>This full-stack project is a comprehensive solution tailored for Non-Governmental Organization. Tools used in this project are Bootstrap, React.js, Node.js and PostgreSQL. </p> 
+              <p>This full-stack project is a comprehensive solution tailored for Non-Governmental Organization. Tools used in this project are <b>Bootstrap, React.js, Node.js and PostgreSQL</b>. </p> 
             </div>
           </div>
         </Col>
@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Hotel App</h3>
-              <p>This is a comprehensive one-page website showcasing a hotel. The website is built using React.js for dynamic interactivity and Bootstrap for responsive design.</p> 
+              <p>This is a comprehensive one-page website showcasing a hotel. The website is built using <b>React and javaScrip</b> for dynamic interactivity and Bootstrap for responsive design.</p> 
             </div>
           </div>
         </Col>
@@ -56,7 +56,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Code-UP App</h3>
-              <p>This comprehensive frontend application is designed specifically for educational institutes, built using React.js to deliver a dynamic and interactive user experience. </p> 
+              <p>This comprehensive frontend application is designed specifically for educational institutes, built using <b>React and javaScrip</b>to deliver a dynamic and interactive user experience. </p> 
             </div>
           </div>
         </Col>
@@ -68,7 +68,7 @@ const Projects = () => {
             </div>
             <div className="back">
                 <h3>Resume Rise</h3>
-              <p>A comprehensive resume application powered by React.js, designed to facilitate the creation and downloading of colourful resumes in a matter of minutes. </p>  
+              <p>A comprehensive resume application powered by <b>React and javaScrip</b>, designed to facilitate the creation and downloading of colourful resumes in a matter of minutes. </p>  
             </div>
           </div>
         </Col>
@@ -84,7 +84,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Palindrom App</h3>
-              <p>Palindrome Checker is a simple Java Swing application that allows users to input a string and determine whether it is a palindrome or not.</p> 
+              <p>Palindrome Checker is a simple <b>Java Swing</b> application that allows users to input a string and determine whether it is a palindrome or not.</p> 
             </div>
           </div>
         </Col>
@@ -96,7 +96,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Word Counter App</h3>
-              <p>Word Counter is a Java Swing application designed to count the number of words in a given text input. Users can enter text into a text area provided by the application.</p> 
+              <p>Word Counter is a <b>Java Swing</b> application designed to count the number of words in a given text input. Users can enter text into a text area provided by the application.</p> 
             </div>
           </div>
         </Col>
@@ -114,7 +114,7 @@ const Projects = () => {
     </div>
     <div className="back">
     <h3>Calender event App</h3>
-      <p>Calendar Event Manager is a Java Swing application that enables users to efficiently add, edit ad delete their events and appointments.</p> 
+      <p>Calendar Event Manager is a <b>Java Swing</b> application that enables users to efficiently add, edit ad delete their events and appointments.</p> 
     </div>
   </div>
 </Col>
@@ -126,7 +126,7 @@ const Projects = () => {
     </div>
     <div className="back">
     <h3>Digital Clock App</h3>
-      <p>Digital Clock is a Java Swing application that displays the current time in a digital format. Provides users with an accurate and easy-to-read representation of the time, including hours, minutes, and seconds.</p> 
+      <p>Digital Clock is a <b>Java Swing</b> application that displays the current time in a digital format. Provides users with an accurate and easy-to-read representation of the time, including hours, minutes, and seconds.</p> 
     </div>
   </div>
 </Col>
@@ -145,7 +145,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Text-Document App</h3>
-              <p>A versatile text document application powered by JavaScript, designed to empower users to create stunning documents effortlessly and download them with ease.</p> 
+              <p>A versatile text document application powered by <b>JavaScript</b>, designed to empower users to create stunning documents effortlessly and download them with ease.</p> 
             </div>
           </div>
         </Col>
@@ -157,12 +157,13 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Rick and Morty</h3>
-              <p>An immersive and dynamic page dedicated to the captivating world of Rick and Morty, brought to life with JavaScript DOM manipulation and the Fetch API.</p> 
+              <p>An immersive and dynamic page dedicated to the captivating world of Rick and Morty, brought to life with <b>JavaScript DOM</b> manipulation and the Fetch API.</p> 
             </div>
           </div>
         </Col>
 
       </Row>
+
 
       <Row className="projects-row">
 
@@ -173,7 +174,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Task-Scheduler App</h3>
-              <p>A React.js task scheduler app, streamlining your daily agenda with intuitive features and seamless task management.</p> 
+              <p>A <b>React and JavaScript</b> task scheduler app, streamlining your daily agenda with intuitive features and seamless task management.</p> 
             </div>
           </div>
         </Col>
@@ -185,7 +186,7 @@ const Projects = () => {
             </div>
             <div className="back">
             <h3>Translator App</h3>
-              <p>A React.js translator app, leveraging the Fetch API to seamlessly access translation services and facilitate cross-cultural communication.</p> 
+              <p>A <b>React and JavaScript</b> translator app, leveraging the Fetch API to seamlessly access translation services and facilitate cross-cultural communication.</p> 
             </div>
           </div>
         </Col>
