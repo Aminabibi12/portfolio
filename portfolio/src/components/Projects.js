@@ -9,6 +9,10 @@ import editorImage from './images/text-editor.png';
 import rickImage from './images/rickNmorty.png';
 import TaskImage from './images/task.jpeg';
 import TranslateImage from './images/translate.jpeg';
+import PalindromImage from './images/palinndrom.png';
+import CounterImage from './images/counter.png';
+import ClockImage from './images/clock.png';
+import CalenderImage from './images/calender.png';
 
 const Projects = () => {
   return (
@@ -70,6 +74,68 @@ const Projects = () => {
         </Col>
       </Row>
 
+
+      <Row className="projects-row">
+
+        <Col xs={12} md={6} className="projects">
+          <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
+            <div className="front">
+              <img src={PalindromImage } alt="" />
+            </div>
+            <div className="back">
+            <h3>Palindrom App</h3>
+              <p>Palindrome Checker is a simple Java Swing application that allows users to input a string and determine whether it is a palindrome or not.</p> 
+            </div>
+          </div>
+        </Col>
+
+        <Col xs={12} md={6} className="projects">
+          <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
+            <div className="front">
+              <img src={CounterImage} alt="" />
+            </div>
+            <div className="back">
+            <h3>Word Counter App</h3>
+              <p>Word Counter is a Java Swing application designed to count the number of words in a given text input. Users can enter text into a text area provided by the application.</p> 
+            </div>
+          </div>
+        </Col>
+
+      </Row>
+
+     
+
+      <Row className="projects-row">
+
+<Col xs={12} md={6} className="projects">
+  <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
+    <div className="front">
+      <img src={CalenderImage} alt="" />
+    </div>
+    <div className="back">
+    <h3>Calender event App</h3>
+      <p>Calendar Event Manager is a Java Swing application that enables users to efficiently add, edit ad delete their events and appointments.</p> 
+    </div>
+  </div>
+</Col>
+
+<Col xs={12} md={6} className="projects">
+  <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
+    <div className="front">
+      <img src={ClockImage} alt="" />
+    </div>
+    <div className="back">
+    <h3>Digital Clock App</h3>
+      <p>Digital Clock is a Java Swing application that displays the current time in a digital format. Provides users with an accurate and easy-to-read representation of the time, including hours, minutes, and seconds.</p> 
+    </div>
+  </div>
+</Col>
+
+</Row>
+
+
+
+
       <Row className="projects-row">
 
         <Col xs={12} md={6} className="projects">
@@ -125,6 +191,7 @@ const Projects = () => {
         </Col>
 
       </Row>
+
     </Container>
   );
 };
