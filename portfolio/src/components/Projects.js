@@ -24,10 +24,13 @@ const Projects = () => {
         <Col xs={12} md={6} className="projects">
           <div className="projects-image" onMouseEnter={(e) => e.currentTarget.classList.add('flip')} onMouseLeave={(e) => e.currentTarget.classList.remove('flip')}>
             <div className="front">
-              <img src={soulImage} alt="" />
+          
+            <img src={soulImage} alt="Description of the image" />
+             
             </div>
             <div className="back">
-                <h3>Soul Plates Project</h3>
+                <h3>  <a href="https://soul-plates.migracode.org/" >Soul Plates Project</a></h3>
+              
               <p>This full-stack project is a comprehensive solution tailored for Non-Governmental Organization. Tools used in this project are <b>Bootstrap, React.js, Node.js and PostgreSQL</b>. </p> 
             </div>
           </div>
@@ -39,7 +42,7 @@ const Projects = () => {
               <img src={hotelImage} alt="" />
             </div>
             <div className="back">
-            <h3>Hotel App</h3>
+            <h3> <a href="https://hotel-sandy.vercel.app/" >Hotel App</a></h3>
               <p>This is a comprehensive one-page website showcasing a hotel. The website is built using <b>React and javaScrip</b> for dynamic interactivity and Bootstrap for responsive design.</p> 
             </div>
           </div>
@@ -55,7 +58,7 @@ const Projects = () => {
               <img src={codeUPImage} alt="" />
             </div>
             <div className="back">
-            <h3>Code-UP App</h3>
+            <h3> <a href="https://code-up-app.vercel.app/" >Code-UP App</a></h3>
               <p>This comprehensive frontend application is designed specifically for educational institutes, built using <b>React and javaScrip</b>to deliver a dynamic and interactive user experience. </p> 
             </div>
           </div>
@@ -67,7 +70,7 @@ const Projects = () => {
               <img src={resumeImage} alt="" />
             </div>
             <div className="back">
-                <h3>Resume Rise</h3>
+                <h3>  <a href="https://resume-app-lyart.vercel.app/" >Resume Rise</a></h3>
               <p>A comprehensive resume application powered by <b>React and javaScrip</b>, designed to facilitate the creation and downloading of colourful resumes in a matter of minutes. </p>  
             </div>
           </div>
@@ -144,7 +147,7 @@ const Projects = () => {
               <img src={editorImage} alt="" />
             </div>
             <div className="back">
-            <h3>Text-Document App</h3>
+            <h3> <a href="https://text-editor-app1.netlify.app/" >Text-Editor App</a></h3>
               <p>A versatile text document application powered by <b>JavaScript</b>, designed to empower users to create stunning documents effortlessly and download them with ease.</p> 
             </div>
           </div>
@@ -156,7 +159,7 @@ const Projects = () => {
               <img src={rickImage} alt="" />
             </div>
             <div className="back">
-            <h3>Rick and Morty</h3>
+            <h3> <a href="https://ricknmorty-fetch-api.netlify.app/" >Rick and Morty</a></h3>
               <p>An immersive and dynamic page dedicated to the captivating world of Rick and Morty, brought to life with <b>JavaScript DOM</b> manipulation and the Fetch API.</p> 
             </div>
           </div>
@@ -173,7 +176,7 @@ const Projects = () => {
               <img src={TaskImage} alt="" />
             </div>
             <div className="back">
-            <h3>Task-Scheduler App</h3>
+            <h3> <a href="https://task-app-ten-phi.vercel.app/" >Task-Scheduler App </a></h3>
               <p>A <b>React and JavaScript</b> task scheduler app, streamlining your daily agenda with intuitive features and seamless task management.</p> 
             </div>
           </div>
@@ -185,7 +188,7 @@ const Projects = () => {
               <img src={TranslateImage} alt="" />
             </div>
             <div className="back">
-            <h3>Translator App</h3>
+            <h3> <a href="https://traslator-app.vercel.app/" >Translator App</a></h3>
               <p>A <b>React and JavaScript</b> translator app, leveraging the Fetch API to seamlessly access translation services and facilitate cross-cultural communication.</p> 
             </div>
           </div>
