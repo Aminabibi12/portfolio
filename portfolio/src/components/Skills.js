@@ -10,7 +10,7 @@ import githubImage from './images/github.png';
 import scrumImage from './images/scrum2.png';
 import trelloImage from './images/trello.webp';
 import JavaImage from './images/java.webp';
-import PhpImage from './images/php.webp';
+import AwsImage from './images/aws1.webp';
 import PythonImage from './images/python.webp';
 import './Skills.css';
 
@@ -85,9 +85,9 @@ const Skills = () => {
         </Col>
         <Col xs={12} md={4} className="text-center">
           <div className="skill-image">
-            <img src={PhpImage} alt="Node.js" className="img-fluid" />
+            <img src={AwsImage} alt="Node.js" className="img-fluid" />
             <div className="overlay">
-              <div className="text"><b>PEquipped with fundamental knowledge of PHP programming for development</b></div>
+              <div className="text"><b>Have foundational knowledge of cloud computing and AWS services.</b></div>
             </div>
           </div>
         </Col>
@@ -95,7 +95,7 @@ const Skills = () => {
           <div className="skill-image">
             <img src={PythonImage } alt="SQL" className="img-fluid" />
             <div className="overlay">
-              <div className="text"><b>Having a foundational grasp of Python programming in task scripting</b></div>
+              <div className="text"><b>Having strong kowledge in Python scripting for system administration tasks and file management</b></div>
             </div>
           </div>
         </Col>

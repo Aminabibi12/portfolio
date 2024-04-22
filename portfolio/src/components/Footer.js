@@ -20,7 +20,7 @@ const Footer = () => {
           <Col xs={12} sm={6} md={4} className='col2'  style={{ }}>
             <h5 style={{paddingBottom:"5px"}}>Follow Me!</h5>
             <div className="social-icons">
-  <a href="https://www.linkedin.com/in/amina-bibi-a6bb03250/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/amina-bibi-developer/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faLinkedin} size="2x" />
   </a>
   <span className="icon-space"></span> 
